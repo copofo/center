@@ -30,12 +30,18 @@ h1{
 
 ol{
     list-style: none;
-    border: solid;
+    
     display: flex;
     justify-content: center;
     grid-gap: 40px;
 }
 
 li{
-    border: solid;
+    font-size: 20px;
+}
+
+li:hover{
+    color: blue;
+    font-size: 21px;
+    cursor: pointer;
 }
