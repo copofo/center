@@ -1,0 +1,41 @@
+.logout{
+    text-align: right;
+}
+
+
+
+#logout{
+    width: 56px;
+    height: 28px;
+    border-radius: 10px;
+    background-color: #262223;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    box-shadow: 0px 5px 0px 0px #161414;
+    font-weight: bold;
+ 
+}
+
+#logout:active{
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+
+h1{
+    text-align: center;
+}
+
+ol{
+    list-style: none;
+    border: solid;
+    display: flex;
+    justify-content: center;
+    grid-gap: 40px;
+}
+
+li{
+    border: solid;
+}
